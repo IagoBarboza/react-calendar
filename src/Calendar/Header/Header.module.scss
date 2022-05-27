@@ -1,0 +1,13 @@
+.Header {
+  // background: gray;
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.HeaderItem {
+  flex: 1;
+  // background: rgb(241, 241, 241);
+  border: 1px solid rgb(59, 59, 59);
+  text-align: center;
+}

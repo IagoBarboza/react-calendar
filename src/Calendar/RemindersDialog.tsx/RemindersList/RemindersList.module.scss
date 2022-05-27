@@ -1,0 +1,30 @@
+.RemindersList {
+  height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Row {
+  display: flex;
+  align-items: flex-end;
+  &:hover {
+    .Action {
+      display: flex;
+    }
+  }
+}
+
+.Actions {
+  display: flex;
+}
+
+.Action {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover {
+    color: rgb(154, 154, 154);
+  }
+}
+
